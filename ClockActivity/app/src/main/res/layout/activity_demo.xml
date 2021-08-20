@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="service"
+            android:layout_marginTop="60dp"
+            android:id="@+id/START"
+            android:onClick="Intent_ljj"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="int"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
+            android:id="@+id/int_ljj"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="String"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="150dp"
+            android:id="@+id/String_ljj"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Boolean"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="200dp"
+            android:id="@+id/Boolean_ljj"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ArrayList"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="300dp"
+            android:id="@+id/ArrayList"/>
+
+
+
+    </RelativeLayout>
+</RelativeLayout>
